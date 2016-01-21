@@ -29,6 +29,7 @@
     
     //测试代码，正式版本应该删除
         canShow = YES;
+    //逗逼何晴
     
     if(canShow){
         
