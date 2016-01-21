@@ -1,0 +1,33 @@
+//
+//  lawyerApp.pch
+//  lawyerApp
+//
+//  Created by mdhj－2 on 16/1/12.
+//  Copyright © 2016年 mdhj－2. All rights reserved.
+//
+
+#import <Availability.h>
+
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+/**
+ *  全局常量
+ */
+#import "ASContstant.h"
+/**
+ *  全局宏定义
+ */
+#import "ASMacros.h"
+
+#import "UIView+Extension.h"
+
+/**
+ *  全局引用库
+ */
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
