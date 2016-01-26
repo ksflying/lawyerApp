@@ -435,8 +435,6 @@
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-#warning 输出点击
-   
     
     //获取选中的节点
     TYGSelectMenuEntity *tempMenu = nil;

@@ -32,6 +32,7 @@
 +(void) requestByGetWithUrl:(NSString *)urlString Complete:(void (^)(id object))success faile:(void(^)(NSError *error))failture;
 
 
+
 /**
  *  完成网络Get请求成功返回data类型数据
  *
@@ -51,6 +52,7 @@
  */
 +(void) requestWithUrlByPost:(NSString *)urlString parameters:(NSDictionary *)parameters Complete:(void (^)(NSData *data))success faile:(void(^)(NSError *error))failture;
 
+#pragma mark abandoned
 /**
  *  完成网络Get请求(包含HTTP头字段)
  *

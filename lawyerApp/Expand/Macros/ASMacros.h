@@ -21,7 +21,7 @@
 #define kSelfViewHeight (self.frame.size.height)
 //当前视图宽
 #define kSelfViewWidth (self.frame.size.width)
-//出去导航栏和TabBar的Frame
+//除去导航栏和TabBar的Frame
 #define kTableFrame (CGRectMake(0, 64, ScreenWidth, ScreenHeight-64-49))
 
 

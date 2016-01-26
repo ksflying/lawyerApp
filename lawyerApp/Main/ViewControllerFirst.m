@@ -2,12 +2,12 @@
 //  ViewControllerFirst.m
 //  lawyerApp
 //
-//  Created by mdhj－2 on 16/1/12.
+//  Created by mdhj－2 on 16/1/25.
 //  Copyright © 2016年 mdhj－2. All rights reserved.
 //
 
 #import "ViewControllerFirst.h"
-
+#import "ASAlertView.h"
 @interface ViewControllerFirst ()
 
 @end
@@ -16,14 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)alertBtnClick1:(id)sender {
+    
+    [ASAlertView alertMessage:@"普通警告框框适配IOS9"];
+}
+- (IBAction)alertBtnClick2:(id)sender {
+    [ASAlertView showMessage:@"1.5s后消失"];
+}
+
+- (IBAction)alertBtnClick3:(id)sender {
+    
+    [ASAlertView alertMessageWithMaskView:@"带遮罩提示框"];
+    
+}
+
 
 /*
 #pragma mark - Navigation

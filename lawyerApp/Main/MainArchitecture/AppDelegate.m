@@ -56,8 +56,8 @@
 
 -(void) tabBarController{
     ASTabBarViewController *tabBarController=[[ASTabBarViewController alloc]init];
-    
     tabBarController.delegate=self;
+    //tabBar背景图片
     //tabBarController.tabBar.backgroundImage=[UIImage imageNamed:@"005.jpg"];
     tabBarController.tabBar.clipsToBounds=YES;
     [tabBarController createtabBarController];
