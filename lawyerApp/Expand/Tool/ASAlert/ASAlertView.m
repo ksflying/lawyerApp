@@ -1,9 +1,9 @@
 //
 //  alertView.m
-//  demo
+//  lawterApp
 //
-//  Created by apple  on 15/11/23.
-//  Copyright © 2015年 apple . All rights reserved.
+//  Created by ksflying on 15/10/15.
+//  Copyright (c) 2015年 Ks.H. All rights reserved.
 //
 
 #import "ASAlertView.h"
@@ -51,6 +51,7 @@
     
     
     
+    
     UITapGestureRecognizer *singleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTap:)];
     singleTapRecognizer.numberOfTapsRequired = 1; // 单击
     [rectangleView addGestureRecognizer:singleTapRecognizer];
@@ -81,8 +82,15 @@
         
         maskView = [[UIView alloc]initWithFrame:AppRootView.frame];
         maskView.backgroundColor = [UIColor grayColor];
-        maskView.alpha = 0.6;
+        maskView.alpha = 1;
         maskView.userInteractionEnabled = YES;
+        
+        
+        UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+        UIVisualEffectView *effectview = [[UIVisualEffectView alloc] initWithEffect:blur];
+        effectview.frame = maskView.frame;
+        
+        [maskView addSubview:effectview];
         
     });
     return maskView;

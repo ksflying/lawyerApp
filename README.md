@@ -169,5 +169,91 @@ ASContstant.h
  */
 +(void)alertMessageWithMaskView:(NSString*)message;
 ```
+* 图片浏览 传入要浏览的图片数组(必选)设置默认滚动到第几页(选填)，支持放大缩小。
 
+```
+#import "ASBigImages.h"
+ ASBigImages *BigImage = [[ASBigImages alloc]init];
+    BigImage.imageRuls = _ImageArray;
+    BigImage.selectIndex = 2;
+    [self.navigationController pushViewController:BigImage animated:YES];
+```
+* 从相册或者相机返回照片
+
+```
+-(void) addIMage
+{
+#if __IPHONE_OS_VERSION_MIN_REQUIRED <= __IPHONE_8_0
+    
+    //上传图片操作开始，选择图片的来源
+    UIActionSheet*menu=[[UIActionSheet alloc]
+                        initWithTitle:@"照片录入"
+                        delegate:self
+                        cancelButtonTitle:@"取消"
+                        destructiveButtonTitle:nil
+                        otherButtonTitles:@"拍照",@"从相册上传",nil];
+    menu.actionSheetStyle=UIActionSheetStyleBlackTranslucent;
+    [menu showInView:self.view];
+    
+#else
+    
+    UIAlertController *alertController=[UIAlertController alertControllerWithTitle:nil message:@"照片录入" preferredStyle:(UIAlertControllerStyleActionSheet)];
+    UIAlertAction *cancelAction=[UIAlertAction actionWithTitle:@"取消" style:(UIAlertActionStyleCancel) handler:^(UIAlertAction *action) {
+        ;
+    }];
+    UIAlertAction *takePtotoAction=[UIAlertAction actionWithTitle:@"拍照" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction *action) {
+        [self shareForGetCamera];
+        
+    }];
+    UIAlertAction *ptotoAction=[UIAlertAction actionWithTitle:@"从相册上传" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction *action) {
+        [self shareForGetPicture];
+    }];
+    [alertController addAction:cancelAction];
+    [alertController addAction:takePtotoAction];
+    [alertController addAction:ptotoAction];
+    [self presentViewController:alertController animated:YES completion:nil];
+    
+#endif
+    
+}
+
+-(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if(buttonIndex==0){
+        
+        [self shareForGetCamera];
+        
+        
+    }else if(buttonIndex==1){
+        [self shareForGetPicture];
+        
+    }
+    
+}
+
+
+-(void)shareForGetCamera
+{
+    [ASAlbum sharedPictureFromCamera:^(UIImage *image) {
+        if (image!=nil) {
+            //取得照片
+        }
+
+    }];
+    
+}
+
+
+-(void)shareForGetPicture
+{
+    [ASAlbum sharedPictureFromAlbum:^(UIImage *image) {
+        if (image!=nil) {
+			//取得照片
+        }
+
+    }];
+    
+}
+
+```
 

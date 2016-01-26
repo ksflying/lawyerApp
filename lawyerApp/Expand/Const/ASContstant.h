@@ -1,9 +1,9 @@
 //
 //  ASContstant.h
-//  KSFramework
+//  lawterApp
 //
-//  Created by qianfeng on 15/10/25.
-//  Copyright © 2015年 Ks.H. All rights reserved.
+//  Created by ksflying on 15/10/15.
+//  Copyright (c) 2015年 Ks.H. All rights reserved.
 //
 
 #ifndef ASContstant_h

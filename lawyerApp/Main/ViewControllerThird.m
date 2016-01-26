@@ -1,11 +1,10 @@
 //
 //  ViewControllerThird.m
-//  lawyerApp
+//  lawterApp
 //
-//  Created by mdhj－2 on 16/1/12.
-//  Copyright © 2016年 mdhj－2. All rights reserved.
+//  Created by ksflying on 15/10/15.
+//  Copyright (c) 2015年 Ks.H. All rights reserved.
 //
-
 #import "ViewControllerThird.h"
 #import "ASButton.h"
 #import "NextViewController.h"

@@ -1,9 +1,9 @@
 //
 //  alertView.h
-//  demo
+//  lawterApp
 //
-//  Created by apple  on 15/11/23.
-//  Copyright © 2015年 apple . All rights reserved.
+//  Created by ksflying on 15/10/15.
+//  Copyright (c) 2015年 Ks.H. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
