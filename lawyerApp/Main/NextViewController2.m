@@ -9,6 +9,7 @@
 #import "NextViewController2.h"
 #import "ASNaviagtionItem.h"
 #import "HQSearchBar.h"
+#import "ASButton.h"
 @interface NextViewController2 ()<UITextFieldDelegate>
 
 @property (nonatomic,strong) HQSearchBar * searchBar;
@@ -36,6 +37,23 @@
     }];
 
     
+    __block ASButton *nextBtn0 = [ASButton createNomalButton:(UIButtonTypeSystem) frame:CGRectMake(200, 200, 100, 100) title:@"next" backgroundImage:nil state:(UIControlStateNormal) action:^(UIButton *sender) {
+        
+
+    }];
+    [self.view addSubview:nextBtn0];
+    
+    
+    
+    __block ASButton *nextBtn = [ASButton createNomalButton:(UIButtonTypeSystem) frame:CGRectMake(200, 200, 100, 100) title:@"next" backgroundImage:nil state:(UIControlStateNormal) action:^(UIButton *sender) {
+        
+        
+        [nextBtn makeToast:@"dd" duration:3 position:nextBtn0];
+        [UIButton deleRepeatClcik:nextBtn delayTime:3 ];
+    }];
+    nextBtn.center = kScreeCenter;
+    [self.view addSubview:nextBtn];
+
     
     // Do any additional setup after loading the view.
 }

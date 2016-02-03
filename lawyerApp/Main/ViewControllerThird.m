@@ -19,14 +19,36 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    ASButton *nextBtn = [ASButton createNomalButton:(UIButtonTypeSystem) frame:CGRectMake(200, 200, 100, 100) title:@"next" backgroundImage:nil state:(UIControlStateNormal) action:^(UIButton *sender) {
+    
+    //快速创建Button   继承
+    ASButton *nextBtn = [ASButton createNomalButton:(UIButtonTypeSystem) frame:CGRectMake(100, 0, 100, 100) title:@"next" backgroundImage:nil state:(UIControlStateNormal) action:^(UIButton *sender) {
         
         NextViewController *nextVC = [[NextViewController alloc]init];
         [self.navigationController pushViewController:nextVC animated:YES];
         ;
     }];
-    nextBtn.center = kScreeCenter;
+    nextBtn.y = 100;
+    //渐变颜色
+    nextBtn.backgroundColor = [UIColor gradientFromColor:[UIColor whiteColor] toColor:[UIColor orangeColor] withHeight:nextBtn.height];
+    nextBtn.cornerRadius = 5;
     [self.view addSubview:nextBtn];
+    
+    
+    //快速创建可点击ImageView   分类
+    __block UIImageView *imgView = [UIImageView createImageViewWithFrame:CGRectMake(100, 0, 100, 100) imageStr:@"_bar_item001" tapAction:^(UIImageView *image) {
+        
+        //抖动效果
+//        [imgView shake:5 withDelta:1];
+//        [nextBtn shake];
+
+
+        NSLog(@"图片点击");
+    }];
+    imgView.y = nextBtn.y + nextBtn.height + 50;
+    [self.view addSubview:imgView];
+    
+    
+    
 
 }
 
