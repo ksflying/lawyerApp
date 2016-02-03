@@ -1,8 +1,14 @@
+//
+//  UIView+Frame.m
+//  lawyerApp
+//
+//  Created by mdhj－2 on 16/2/3.
+//  Copyright © 2016年 mdhj－2. All rights reserved.
+//
 
-#import "UIView+Extension.h"
+#import "UIView+Frame.h"
 
-@implementation UIView (Extension)
-
+@implementation UIView (Frame)
 - (void)setX:(CGFloat)x
 {
     CGRect frame = self.frame;
@@ -97,5 +103,16 @@
 - (CGPoint)origin
 {
     return self.frame.origin;
+}
+
+// 圆角
+- (CGFloat)cornerRadius
+{
+    return self.layer.cornerRadius;
+}
+- (void)setCornerRadius:(CGFloat)cornerRadius
+{
+    self.layer.cornerRadius = cornerRadius;
+    self.clipsToBounds = YES;
 }
 @end

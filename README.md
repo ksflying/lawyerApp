@@ -260,7 +260,7 @@ ASContstant.h
 * 添加分类 正则表达式匹配(号码,手机号码,qq号,帐号)
 * UIColor 渐变颜色（Gradient） 随机颜色（Random）
 * UIImageView 快速创建ImageView 有点击事件
-* UIView view抖动(Shake) 修改view frame相关属性（Extension）
+* UIView view抖动(Shake) 修改view frame相关属性（Frame）
 * UIButton 避免按钮重复点击(repeatClick)
 
 

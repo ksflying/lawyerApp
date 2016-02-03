@@ -11,12 +11,12 @@
 		3D040DFB1C561B730036BA0E /* ASAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D040DFA1C561B730036BA0E /* ASAlertView.m */; };
 		3D040DFF1C56206B0036BA0E /* ViewControllerFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D040DFD1C56206B0036BA0E /* ViewControllerFirst.m */; };
 		3D040E001C56206B0036BA0E /* ViewControllerFirst.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D040DFE1C56206B0036BA0E /* ViewControllerFirst.xib */; };
-		3D2F0CE41C61F7C500B583D9 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CE31C61F7C500B583D9 /* UIView+Extension.m */; };
 		3D2F0CE81C61F8A100B583D9 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CE71C61F8A100B583D9 /* UIImageView+Extension.m */; };
 		3D2F0CEB1C61FE9200B583D9 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CEA1C61FE9200B583D9 /* UIView+Shake.m */; };
 		3D2F0CEE1C62021400B583D9 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CED1C62021400B583D9 /* UIView+Toast.m */; };
 		3D2F0CFA1C6206AB00B583D9 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CF11C6206AB00B583D9 /* UIColor+Gradient.m */; };
 		3D2F0CFD1C6206AB00B583D9 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CF71C6206AB00B583D9 /* UIColor+Random.m */; };
+		3D2F0D041C620C8C00B583D9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0D031C620C8C00B583D9 /* UIView+Frame.m */; };
 		3D8EAE971C60C6070058DE11 /* NSString+regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8EAE961C60C6070058DE11 /* NSString+regular.m */; };
 		3DFB11B81C449B730007B694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB11B71C449B730007B694 /* main.m */; };
 		3DFB11C31C449B730007B694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFB11C21C449B730007B694 /* Assets.xcassets */; };
@@ -230,8 +230,6 @@
 		3D040DFD1C56206B0036BA0E /* ViewControllerFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirst.m; sourceTree = "<group>"; };
 		3D040DFE1C56206B0036BA0E /* ViewControllerFirst.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerFirst.xib; sourceTree = "<group>"; };
 		3D2F0CE01C61F53E00B583D9 /* KSKitCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSKitCategory.h; sourceTree = "<group>"; };
-		3D2F0CE21C61F7C500B583D9 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		3D2F0CE31C61F7C500B583D9 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		3D2F0CE61C61F8A100B583D9 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
 		3D2F0CE71C61F8A100B583D9 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
 		3D2F0CE91C61FE9200B583D9 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
@@ -242,6 +240,8 @@
 		3D2F0CF11C6206AB00B583D9 /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
 		3D2F0CF61C6206AB00B583D9 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
 		3D2F0CF71C6206AB00B583D9 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		3D2F0D021C620C8C00B583D9 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3D2F0D031C620C8C00B583D9 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		3D8EAE951C60C6070058DE11 /* NSString+regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+regular.h"; sourceTree = "<group>"; };
 		3D8EAE961C60C6070058DE11 /* NSString+regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+regular.m"; sourceTree = "<group>"; };
 		3DFB11B31C449B730007B694 /* lawyerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lawyerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -648,10 +648,10 @@
 			children = (
 				3D2F0CE91C61FE9200B583D9 /* UIView+Shake.h */,
 				3D2F0CEA1C61FE9200B583D9 /* UIView+Shake.m */,
-				3D2F0CE21C61F7C500B583D9 /* UIView+Extension.h */,
-				3D2F0CE31C61F7C500B583D9 /* UIView+Extension.m */,
 				3D2F0CEC1C62021400B583D9 /* UIView+Toast.h */,
 				3D2F0CED1C62021400B583D9 /* UIView+Toast.m */,
+				3D2F0D021C620C8C00B583D9 /* UIView+Frame.h */,
+				3D2F0D031C620C8C00B583D9 /* UIView+Frame.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -1861,6 +1861,7 @@
 				F4E6EB721C44D8770011865C /* MJRefreshNormalHeader.m in Sources */,
 				F4E6EB7B1C44D8770011865C /* TAAbstractDotView.m in Sources */,
 				F4E6EB8B1C44D8770011865C /* UIButton+WebCache.m in Sources */,
+				3D2F0D041C620C8C00B583D9 /* UIView+Frame.m in Sources */,
 				F4E6EB4E1C44D8770011865C /* View+MASAdditions.m in Sources */,
 				F4E6EB501C44D8770011865C /* JSONModel.m in Sources */,
 				F47BFBFE1C50950200612AAA /* ASNaviagtionItem.m in Sources */,
@@ -1890,7 +1891,6 @@
 				F4E6EBB81C44DAED0011865C /* UIImage+ChangeSize.m in Sources */,
 				F4E6EB441C44D8770011865C /* UIWindow+Launch.m in Sources */,
 				F4E6EBA81C44D8770011865C /* TYGSelectMenu.m in Sources */,
-				3D2F0CE41C61F7C500B583D9 /* UIView+Extension.m in Sources */,
 				3DFBEAF61C575DB4009981CC /* NSString+Size.m in Sources */,
 				3DFB11E41C449D3C0007B694 /* ASTabBarViewController.m in Sources */,
 				3DFB11B81C449B730007B694 /* main.m in Sources */,

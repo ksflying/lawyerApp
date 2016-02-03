@@ -1,15 +1,14 @@
 //
-//  UIView+Extension.h
+//  UIView+Frame.h
 //  lawyerApp
 //
 //  Created by mdhj－2 on 16/2/3.
 //  Copyright © 2016年 mdhj－2. All rights reserved.
 //
+
 #import <UIKit/UIKit.h>
 
-@interface UIView (Extension)
-
-
+@interface UIView (Frame)
 @property (nonatomic, assign) CGFloat x;
 @property (nonatomic, assign) CGFloat y;
 
