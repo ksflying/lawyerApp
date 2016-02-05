@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerFirst1">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqW-v6-dtz">
+                    <rect key="frame" x="103" y="90" width="169" height="30"/>
+                    <state key="normal" title="系统提示框"/>
+                    <connections>
+                        <action selector="alertBtnClick1:" destination="-1" eventType="touchUpInside" id="pNb-zK-0Io"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fa9-Wj-h5K">
+                    <rect key="frame" x="151" y="150" width="72" height="30"/>
+                    <state key="normal" title="1.5s后消失"/>
+                    <connections>
+                        <action selector="alertBtnClick2:" destination="-1" eventType="touchUpInside" id="jdG-n1-8fN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCx-aF-qkn">
+                    <rect key="frame" x="172" y="210" width="30" height="30"/>
+                    <state key="normal" title="遮罩"/>
+                    <connections>
+                        <action selector="alertBtnClick3:" destination="-1" eventType="touchUpInside" id="FsG-j9-NED"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Fa9-Wj-h5K" firstAttribute="centerX" secondItem="aqW-v6-dtz" secondAttribute="centerX" id="D9u-ZS-4Bl"/>
+                <constraint firstItem="aqW-v6-dtz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="EDl-08-nmN"/>
+                <constraint firstAttribute="trailing" secondItem="aqW-v6-dtz" secondAttribute="trailing" constant="103" id="Rz2-sQ-Lad"/>
+                <constraint firstItem="aqW-v6-dtz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="103" id="cph-h2-D1i"/>
+                <constraint firstItem="dCx-aF-qkn" firstAttribute="centerX" secondItem="Fa9-Wj-h5K" secondAttribute="centerX" id="o7r-J0-4Bv"/>
+                <constraint firstItem="Fa9-Wj-h5K" firstAttribute="top" secondItem="aqW-v6-dtz" secondAttribute="bottom" constant="30" id="p0k-Cq-U6b"/>
+                <constraint firstItem="dCx-aF-qkn" firstAttribute="top" secondItem="Fa9-Wj-h5K" secondAttribute="bottom" constant="30" id="v4a-rJ-EWr"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

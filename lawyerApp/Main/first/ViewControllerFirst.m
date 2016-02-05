@@ -7,6 +7,7 @@
 //
 
 #import "ViewControllerFirst.h"
+#import "TableViewController.h"
 #import "ASAlertView.h"
 @interface ViewControllerFirst ()
 
@@ -16,6 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UINavigationController *nc = [self.tabBarController.viewControllers objectAtIndex:2];
+    nc.tabBarItem.badgeValue = @"3";
+    
+    
+    
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -23,20 +31,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)alertBtnClick1:(id)sender {
-    
-    [ASAlertView alertMessage:@"普通警告框框适配IOS9"];
-}
-- (IBAction)alertBtnClick2:(id)sender {
-    [ASAlertView showMessage:@"1.5s后消失"];
-}
 
-- (IBAction)alertBtnClick3:(id)sender {
+
+- (IBAction)moreClick:(id)sender {
     
-    [ASAlertView alertMessageWithMaskView:@"带遮罩提示框"];
+    TableViewController *vc = [[TableViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:NO];
     
 }
-
 
 /*
 #pragma mark - Navigation

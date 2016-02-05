@@ -7,7 +7,7 @@
 //
 
 #import "ViewControllerSecond.h"
-
+#import "ASReadSetting.h"
 @interface ViewControllerSecond ()
 
 @end
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"%@",[ASReadSetting readSettingPlist]);
     // Do any additional setup after loading the view.
 }
 

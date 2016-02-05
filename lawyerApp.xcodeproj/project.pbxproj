@@ -9,15 +9,42 @@
 /* Begin PBXBuildFile section */
 		3D040DF71C5619A40036BA0E /* ASButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D040DF61C5619A40036BA0E /* ASButton.m */; };
 		3D040DFB1C561B730036BA0E /* ASAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D040DFA1C561B730036BA0E /* ASAlertView.m */; };
-		3D040DFF1C56206B0036BA0E /* ViewControllerFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D040DFD1C56206B0036BA0E /* ViewControllerFirst.m */; };
-		3D040E001C56206B0036BA0E /* ViewControllerFirst.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D040DFE1C56206B0036BA0E /* ViewControllerFirst.xib */; };
 		3D2F0CE81C61F8A100B583D9 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CE71C61F8A100B583D9 /* UIImageView+Extension.m */; };
 		3D2F0CEB1C61FE9200B583D9 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CEA1C61FE9200B583D9 /* UIView+Shake.m */; };
 		3D2F0CEE1C62021400B583D9 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CED1C62021400B583D9 /* UIView+Toast.m */; };
 		3D2F0CFA1C6206AB00B583D9 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CF11C6206AB00B583D9 /* UIColor+Gradient.m */; };
 		3D2F0CFD1C6206AB00B583D9 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0CF71C6206AB00B583D9 /* UIColor+Random.m */; };
 		3D2F0D041C620C8C00B583D9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F0D031C620C8C00B583D9 /* UIView+Frame.m */; };
+		3D3D2E341C62F95C00846CF1 /* ZYRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D2E311C62F95C00846CF1 /* ZYRadioButton.m */; };
+		3D3D2E351C62F95C00846CF1 /* RadioButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3D2E321C62F95C00846CF1 /* RadioButton-Selected.png */; };
+		3D3D2E361C62F95C00846CF1 /* RadioButton-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3D2E331C62F95C00846CF1 /* RadioButton-Unselected.png */; };
+		3D3D2E381C62FA8B00846CF1 /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D3D2E371C62FA8B00846CF1 /* setting.plist */; };
+		3D3D2E3C1C62FAD300846CF1 /* ASReadSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D2E3B1C62FAD300846CF1 /* ASReadSetting.m */; };
+		3D3D2E481C62FD4F00846CF1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D2E471C62FD4F00846CF1 /* TableViewController.m */; };
+		3D3D2E561C631A7900846CF1 /* ASDepthModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D2E551C631A7900846CF1 /* ASDepthModalViewController.m */; };
 		3D8EAE971C60C6070058DE11 /* NSString+regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8EAE961C60C6070058DE11 /* NSString+regular.m */; };
+		3DA7D3FA1C6321DB002B8888 /* ViewControllerFirst1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D3F81C6321DB002B8888 /* ViewControllerFirst1.m */; };
+		3DA7D3FB1C6321DB002B8888 /* ViewControllerFirst1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7D3F91C6321DB002B8888 /* ViewControllerFirst1.xib */; };
+		3DA7D4041C6322C3002B8888 /* RadioViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4011C6322C3002B8888 /* RadioViewController1.m */; };
+		3DA7D40B1C632641002B8888 /* ViewControllerFirst2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4091C632641002B8888 /* ViewControllerFirst2.m */; };
+		3DA7D40C1C632641002B8888 /* ViewControllerFirst2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7D40A1C632641002B8888 /* ViewControllerFirst2.xib */; };
+		3DA7D4121C632779002B8888 /* ViewControllerFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4111C632779002B8888 /* ViewControllerFirst.m */; };
+		3DA7D4141C6327FB002B8888 /* ViewControllerFirst.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7D4131C6327FB002B8888 /* ViewControllerFirst.xib */; };
+		3DA7D4171C63285F002B8888 /* RadioViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4161C63285F002B8888 /* RadioViewController2.m */; };
+		3DA7D41C1C632D23002B8888 /* ASScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D41A1C632D23002B8888 /* ASScannerViewController.m */; };
+		3DA7D41D1C632D23002B8888 /* ASScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7D41B1C632D23002B8888 /* ASScannerViewController.xib */; };
+		3DA7D4271C6334CC002B8888 /* OTRAlbumDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4241C6334CC002B8888 /* OTRAlbumDetailsViewController.m */; };
+		3DA7D4281C6334CC002B8888 /* OTRAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4261C6334CC002B8888 /* OTRAlbumViewController.m */; };
+		3DA7D42B1C6334F9002B8888 /* RGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D42A1C6334F9002B8888 /* RGCollectionViewCell.m */; };
+		3DA7D42E1C633511002B8888 /* RGCardViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D42D1C633511002B8888 /* RGCardViewLayout.m */; };
+		3DA7D4331C633527002B8888 /* OTRAlbumItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4301C633527002B8888 /* OTRAlbumItemModel.m */; };
+		3DA7D4341C633527002B8888 /* OTRAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4321C633527002B8888 /* OTRAlbumModel.m */; };
+		3DA7D4371C633543002B8888 /* OTRAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4361C633543002B8888 /* OTRAlbumCell.m */; };
+		3DA7D43A1C633946002B8888 /* ViewControllerFirst4.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4391C633946002B8888 /* ViewControllerFirst4.m */; };
+		3DA7D43C1C633AAE002B8888 /* bg_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7D43B1C633AAE002B8888 /* bg_4.png */; };
+		3DA7D4401C633D75002B8888 /* bg_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7D43F1C633D75002B8888 /* bg_3.jpeg */; };
+		3DA7D4421C633D7B002B8888 /* line001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7D4411C633D7B002B8888 /* line001.png */; };
+		3DA7D4461C635B38002B8888 /* ViewControllerFirst3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7D4451C635B38002B8888 /* ViewControllerFirst3.m */; };
 		3DFB11B81C449B730007B694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB11B71C449B730007B694 /* main.m */; };
 		3DFB11C31C449B730007B694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFB11C21C449B730007B694 /* Assets.xcassets */; };
 		3DFB11C61C449B730007B694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFB11C41C449B730007B694 /* LaunchScreen.storyboard */; };
@@ -226,9 +253,6 @@
 		3D040DF61C5619A40036BA0E /* ASButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASButton.m; sourceTree = "<group>"; };
 		3D040DF91C561B730036BA0E /* ASAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAlertView.h; sourceTree = "<group>"; };
 		3D040DFA1C561B730036BA0E /* ASAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAlertView.m; sourceTree = "<group>"; };
-		3D040DFC1C56206B0036BA0E /* ViewControllerFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFirst.h; sourceTree = "<group>"; };
-		3D040DFD1C56206B0036BA0E /* ViewControllerFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirst.m; sourceTree = "<group>"; };
-		3D040DFE1C56206B0036BA0E /* ViewControllerFirst.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerFirst.xib; sourceTree = "<group>"; };
 		3D2F0CE01C61F53E00B583D9 /* KSKitCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSKitCategory.h; sourceTree = "<group>"; };
 		3D2F0CE61C61F8A100B583D9 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
 		3D2F0CE71C61F8A100B583D9 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
@@ -242,8 +266,56 @@
 		3D2F0CF71C6206AB00B583D9 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		3D2F0D021C620C8C00B583D9 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		3D2F0D031C620C8C00B583D9 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3D3D2E301C62F95C00846CF1 /* ZYRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRadioButton.h; sourceTree = "<group>"; };
+		3D3D2E311C62F95C00846CF1 /* ZYRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRadioButton.m; sourceTree = "<group>"; };
+		3D3D2E321C62F95C00846CF1 /* RadioButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Selected.png"; sourceTree = "<group>"; };
+		3D3D2E331C62F95C00846CF1 /* RadioButton-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Unselected.png"; sourceTree = "<group>"; };
+		3D3D2E371C62FA8B00846CF1 /* setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
+		3D3D2E3A1C62FAD300846CF1 /* ASReadSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASReadSetting.h; sourceTree = "<group>"; };
+		3D3D2E3B1C62FAD300846CF1 /* ASReadSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASReadSetting.m; sourceTree = "<group>"; };
+		3D3D2E461C62FD4F00846CF1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3D3D2E471C62FD4F00846CF1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3D3D2E541C631A7900846CF1 /* ASDepthModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDepthModalViewController.h; sourceTree = "<group>"; };
+		3D3D2E551C631A7900846CF1 /* ASDepthModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDepthModalViewController.m; sourceTree = "<group>"; };
 		3D8EAE951C60C6070058DE11 /* NSString+regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+regular.h"; sourceTree = "<group>"; };
 		3D8EAE961C60C6070058DE11 /* NSString+regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+regular.m"; sourceTree = "<group>"; };
+		3DA7D3F71C6321DB002B8888 /* ViewControllerFirst1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFirst1.h; sourceTree = "<group>"; };
+		3DA7D3F81C6321DB002B8888 /* ViewControllerFirst1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirst1.m; sourceTree = "<group>"; };
+		3DA7D3F91C6321DB002B8888 /* ViewControllerFirst1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerFirst1.xib; sourceTree = "<group>"; };
+		3DA7D4001C6322C3002B8888 /* RadioViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController1.h; sourceTree = "<group>"; };
+		3DA7D4011C6322C3002B8888 /* RadioViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController1.m; sourceTree = "<group>"; };
+		3DA7D4081C632641002B8888 /* ViewControllerFirst2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFirst2.h; sourceTree = "<group>"; };
+		3DA7D4091C632641002B8888 /* ViewControllerFirst2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirst2.m; sourceTree = "<group>"; };
+		3DA7D40A1C632641002B8888 /* ViewControllerFirst2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerFirst2.xib; sourceTree = "<group>"; };
+		3DA7D4101C632779002B8888 /* ViewControllerFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFirst.h; sourceTree = "<group>"; };
+		3DA7D4111C632779002B8888 /* ViewControllerFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirst.m; sourceTree = "<group>"; };
+		3DA7D4131C6327FB002B8888 /* ViewControllerFirst.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerFirst.xib; sourceTree = "<group>"; };
+		3DA7D4151C63285F002B8888 /* RadioViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController2.h; sourceTree = "<group>"; };
+		3DA7D4161C63285F002B8888 /* RadioViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController2.m; sourceTree = "<group>"; };
+		3DA7D4191C632D23002B8888 /* ASScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASScannerViewController.h; sourceTree = "<group>"; };
+		3DA7D41A1C632D23002B8888 /* ASScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASScannerViewController.m; sourceTree = "<group>"; };
+		3DA7D41B1C632D23002B8888 /* ASScannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASScannerViewController.xib; sourceTree = "<group>"; };
+		3DA7D4231C6334CC002B8888 /* OTRAlbumDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRAlbumDetailsViewController.h; sourceTree = "<group>"; };
+		3DA7D4241C6334CC002B8888 /* OTRAlbumDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRAlbumDetailsViewController.m; sourceTree = "<group>"; };
+		3DA7D4251C6334CC002B8888 /* OTRAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRAlbumViewController.h; sourceTree = "<group>"; };
+		3DA7D4261C6334CC002B8888 /* OTRAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRAlbumViewController.m; sourceTree = "<group>"; };
+		3DA7D4291C6334F9002B8888 /* RGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCollectionViewCell.h; sourceTree = "<group>"; };
+		3DA7D42A1C6334F9002B8888 /* RGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCollectionViewCell.m; sourceTree = "<group>"; };
+		3DA7D42C1C633511002B8888 /* RGCardViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCardViewLayout.h; sourceTree = "<group>"; };
+		3DA7D42D1C633511002B8888 /* RGCardViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCardViewLayout.m; sourceTree = "<group>"; };
+		3DA7D42F1C633527002B8888 /* OTRAlbumItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRAlbumItemModel.h; sourceTree = "<group>"; };
+		3DA7D4301C633527002B8888 /* OTRAlbumItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRAlbumItemModel.m; sourceTree = "<group>"; };
+		3DA7D4311C633527002B8888 /* OTRAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRAlbumModel.h; sourceTree = "<group>"; };
+		3DA7D4321C633527002B8888 /* OTRAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRAlbumModel.m; sourceTree = "<group>"; };
+		3DA7D4351C633543002B8888 /* OTRAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTRAlbumCell.h; sourceTree = "<group>"; };
+		3DA7D4361C633543002B8888 /* OTRAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTRAlbumCell.m; sourceTree = "<group>"; };
+		3DA7D4381C633946002B8888 /* ViewControllerFirst4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFirst4.h; sourceTree = "<group>"; };
+		3DA7D4391C633946002B8888 /* ViewControllerFirst4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirst4.m; sourceTree = "<group>"; };
+		3DA7D43B1C633AAE002B8888 /* bg_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_4.png; sourceTree = "<group>"; };
+		3DA7D43F1C633D75002B8888 /* bg_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_3.jpeg; sourceTree = "<group>"; };
+		3DA7D4411C633D7B002B8888 /* line001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line001.png; sourceTree = "<group>"; };
+		3DA7D4441C635B38002B8888 /* ViewControllerFirst3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFirst3.h; sourceTree = "<group>"; };
+		3DA7D4451C635B38002B8888 /* ViewControllerFirst3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFirst3.m; sourceTree = "<group>"; };
 		3DFB11B31C449B730007B694 /* lawyerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lawyerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFB11B71C449B730007B694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DFB11C21C449B730007B694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -676,6 +748,129 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
+		3D3D2E2F1C62F94C00846CF1 /* ZYRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				3D3D2E301C62F95C00846CF1 /* ZYRadioButton.h */,
+				3D3D2E311C62F95C00846CF1 /* ZYRadioButton.m */,
+				3D3D2E321C62F95C00846CF1 /* RadioButton-Selected.png */,
+				3D3D2E331C62F95C00846CF1 /* RadioButton-Unselected.png */,
+			);
+			path = ZYRadioButton;
+			sourceTree = "<group>";
+		};
+		3D3D2E391C62FAC500846CF1 /* ASReadSetting */ = {
+			isa = PBXGroup;
+			children = (
+				3D3D2E3A1C62FAD300846CF1 /* ASReadSetting.h */,
+				3D3D2E3B1C62FAD300846CF1 /* ASReadSetting.m */,
+			);
+			path = ASReadSetting;
+			sourceTree = "<group>";
+		};
+		3D3D2E401C62FD3900846CF1 /* first */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7D4101C632779002B8888 /* ViewControllerFirst.h */,
+				3DA7D4111C632779002B8888 /* ViewControllerFirst.m */,
+				3DA7D4131C6327FB002B8888 /* ViewControllerFirst.xib */,
+				3DA7D4431C635B38002B8888 /* 原生二维码扫瞄 */,
+				3DA7D4221C6334C0002B8888 /* 图片浏览 */,
+				3DA7D3FC1C6322C3002B8888 /* 单选按钮 */,
+				3DA7D3F61C6321DB002B8888 /* 提示框 */,
+				3D3D2E461C62FD4F00846CF1 /* TableViewController.h */,
+				3D3D2E471C62FD4F00846CF1 /* TableViewController.m */,
+				3D3D2E541C631A7900846CF1 /* ASDepthModalViewController.h */,
+				3D3D2E551C631A7900846CF1 /* ASDepthModalViewController.m */,
+			);
+			path = first;
+			sourceTree = "<group>";
+		};
+		3DA7D3F61C6321DB002B8888 /* 提示框 */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7D3F71C6321DB002B8888 /* ViewControllerFirst1.h */,
+				3DA7D3F81C6321DB002B8888 /* ViewControllerFirst1.m */,
+				3DA7D3F91C6321DB002B8888 /* ViewControllerFirst1.xib */,
+			);
+			path = "提示框";
+			sourceTree = "<group>";
+		};
+		3DA7D3FC1C6322C3002B8888 /* 单选按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7D4081C632641002B8888 /* ViewControllerFirst2.h */,
+				3DA7D4091C632641002B8888 /* ViewControllerFirst2.m */,
+				3DA7D40A1C632641002B8888 /* ViewControllerFirst2.xib */,
+				3DA7D4001C6322C3002B8888 /* RadioViewController1.h */,
+				3DA7D4011C6322C3002B8888 /* RadioViewController1.m */,
+				3DA7D4151C63285F002B8888 /* RadioViewController2.h */,
+				3DA7D4161C63285F002B8888 /* RadioViewController2.m */,
+			);
+			path = "单选按钮";
+			sourceTree = "<group>";
+		};
+		3DA7D4181C632D1C002B8888 /* ASScannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7D4191C632D23002B8888 /* ASScannerViewController.h */,
+				3DA7D41A1C632D23002B8888 /* ASScannerViewController.m */,
+				3DA7D41B1C632D23002B8888 /* ASScannerViewController.xib */,
+			);
+			path = ASScannerViewController;
+			sourceTree = "<group>";
+		};
+		3DA7D4221C6334C0002B8888 /* 图片浏览 */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7D4381C633946002B8888 /* ViewControllerFirst4.h */,
+				3DA7D4391C633946002B8888 /* ViewControllerFirst4.m */,
+				3DA7D43E1C633C2B002B8888 /* View */,
+				3DA7D43D1C633C09002B8888 /* model */,
+				3DA7D43B1C633AAE002B8888 /* bg_4.png */,
+				3DA7D43F1C633D75002B8888 /* bg_3.jpeg */,
+				3DA7D4411C633D7B002B8888 /* line001.png */,
+				3DA7D42C1C633511002B8888 /* RGCardViewLayout.h */,
+				3DA7D42D1C633511002B8888 /* RGCardViewLayout.m */,
+				3DA7D4251C6334CC002B8888 /* OTRAlbumViewController.h */,
+				3DA7D4261C6334CC002B8888 /* OTRAlbumViewController.m */,
+				3DA7D4231C6334CC002B8888 /* OTRAlbumDetailsViewController.h */,
+				3DA7D4241C6334CC002B8888 /* OTRAlbumDetailsViewController.m */,
+			);
+			path = "图片浏览";
+			sourceTree = "<group>";
+		};
+		3DA7D43D1C633C09002B8888 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7D4311C633527002B8888 /* OTRAlbumModel.h */,
+				3DA7D4321C633527002B8888 /* OTRAlbumModel.m */,
+				3DA7D42F1C633527002B8888 /* OTRAlbumItemModel.h */,
+				3DA7D4301C633527002B8888 /* OTRAlbumItemModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3DA7D43E1C633C2B002B8888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7D4351C633543002B8888 /* OTRAlbumCell.h */,
+				3DA7D4361C633543002B8888 /* OTRAlbumCell.m */,
+				3DA7D4291C6334F9002B8888 /* RGCollectionViewCell.h */,
+				3DA7D42A1C6334F9002B8888 /* RGCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3DA7D4431C635B38002B8888 /* 原生二维码扫瞄 */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7D4441C635B38002B8888 /* ViewControllerFirst3.h */,
+				3DA7D4451C635B38002B8888 /* ViewControllerFirst3.m */,
+			);
+			path = "原生二维码扫瞄";
+			sourceTree = "<group>";
+		};
 		3DFB11AA1C449B730007B694 = {
 			isa = PBXGroup;
 			children = (
@@ -717,9 +912,9 @@
 		3DFB11CD1C449CAD0007B694 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3D3D2E401C62FD3900846CF1 /* first */,
 				3DFB11E81C449F0C0007B694 /* third */,
 				3DFB11E71C449EFD0007B694 /* second */,
-				3DFB11E61C449EF70007B694 /* first */,
 				3DFB11CE1C449CAD0007B694 /* MainArchitecture */,
 			);
 			path = Main;
@@ -798,6 +993,9 @@
 		3DFB11D51C449CC00007B694 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				3DA7D4181C632D1C002B8888 /* ASScannerViewController */,
+				3D3D2E391C62FAC500846CF1 /* ASReadSetting */,
+				3D3D2E2F1C62F94C00846CF1 /* ZYRadioButton */,
 				3DFBEAFE1C57674D009981CC /* ASBigImages */,
 				3DFBEAFA1C57624E009981CC /* ASAlbum */,
 				3D040DF81C561B730036BA0E /* ASAlert */,
@@ -835,18 +1033,9 @@
 		3DFB11D91C449CCB0007B694 /* Plist */ = {
 			isa = PBXGroup;
 			children = (
+				3D3D2E371C62FA8B00846CF1 /* setting.plist */,
 			);
 			path = Plist;
-			sourceTree = "<group>";
-		};
-		3DFB11E61C449EF70007B694 /* first */ = {
-			isa = PBXGroup;
-			children = (
-				3D040DFC1C56206B0036BA0E /* ViewControllerFirst.h */,
-				3D040DFD1C56206B0036BA0E /* ViewControllerFirst.m */,
-				3D040DFE1C56206B0036BA0E /* ViewControllerFirst.xib */,
-			);
-			name = first;
 			sourceTree = "<group>";
 		};
 		3DFB11E71C449EFD0007B694 /* second */ = {
@@ -1778,19 +1967,23 @@
 				F4E6EBA41C44D8770011865C /* cb_mono_on.png in Resources */,
 				F4E6EBA11C44D8770011865C /* cb_green_on@2x.png in Resources */,
 				F4E6EB9E1C44D8770011865C /* cb_green_off.png in Resources */,
+				3DA7D4421C633D7B002B8888 /* line001.png in Resources */,
 				F4E6EB991C44D8770011865C /* cb_dark_on@2x.png in Resources */,
-				3D040E001C56206B0036BA0E /* ViewControllerFirst.xib in Resources */,
 				3DFB12121C44A0B50007B694 /* _bar_item002@2x.png in Resources */,
 				F4E6EB9C1C44D8770011865C /* cb_glossy_on.png in Resources */,
 				3DFB12211C44A0B50007B694 /* bar_item003@2x.png in Resources */,
+				3DA7D41D1C632D23002B8888 /* ASScannerViewController.xib in Resources */,
 				F4E6EBA51C44D8770011865C /* cb_mono_on@2x.png in Resources */,
 				F4E6EB741C44D8770011865C /* MJRefresh.bundle in Resources */,
 				F4E6EBA21C44D8770011865C /* cb_mono_off.png in Resources */,
+				3DA7D40C1C632641002B8888 /* ViewControllerFirst2.xib in Resources */,
 				3DFB12231C44A0B50007B694 /* bar_item004 .png in Resources */,
 				3DFB12241C44A0B50007B694 /* bar_item004@2x.png in Resources */,
 				3DFB121F1C44A0B50007B694 /* bar_item002@3x.png in Resources */,
 				F4E6EB9F1C44D8770011865C /* cb_green_off@2x.png in Resources */,
 				3DFB12151C44A0B50007B694 /* _bar_item003@2x.png in Resources */,
+				3DA7D43C1C633AAE002B8888 /* bg_4.png in Resources */,
+				3D3D2E381C62FA8B00846CF1 /* setting.plist in Resources */,
 				F4E6EB921C44D8770011865C /* cb_box_off.png in Resources */,
 				3DFB12161C44A0B50007B694 /* _bar_item003@3x.png in Resources */,
 				F4E6EBA01C44D8770011865C /* cb_green_on.png in Resources */,
@@ -1802,6 +1995,7 @@
 				3DFB120E1C44A0B50007B694 /* _bar_item001.png in Resources */,
 				3DFB11C61C449B730007B694 /* LaunchScreen.storyboard in Resources */,
 				F4E6EB971C44D8770011865C /* cb_dark_off@2x.png in Resources */,
+				3D3D2E361C62F95C00846CF1 /* RadioButton-Unselected.png in Resources */,
 				3DFB11C31C449B730007B694 /* Assets.xcassets in Resources */,
 				3DFB12181C44A0B50007B694 /* _bar_item004@2x.png in Resources */,
 				F4E6EBAA1C44D8770011865C /* TYGSelectMenuCellTableViewCell.xib in Resources */,
@@ -1819,10 +2013,14 @@
 				3DFB121D1C44A0B50007B694 /* bar_item002.png in Resources */,
 				F47BFBFF1C50950200612AAA /* na_back.png in Resources */,
 				3DFB121E1C44A0B50007B694 /* bar_item002@2x.png in Resources */,
+				3DA7D4401C633D75002B8888 /* bg_3.jpeg in Resources */,
 				3DFB12201C44A0B50007B694 /* bar_item003.png in Resources */,
 				3DFB12251C44A0B50007B694 /* bar_item004@3x.png in Resources */,
 				F4E6EB981C44D8770011865C /* cb_dark_on.png in Resources */,
+				3DA7D3FB1C6321DB002B8888 /* ViewControllerFirst1.xib in Resources */,
+				3D3D2E351C62F95C00846CF1 /* RadioButton-Selected.png in Resources */,
 				F4E6EB9B1C44D8770011865C /* cb_glossy_off@2x.png in Resources */,
+				3DA7D4141C6327FB002B8888 /* ViewControllerFirst.xib in Resources */,
 				3DFBEB031C57674D009981CC /* ASBigImages.xib in Resources */,
 				3DFB12101C44A0B50007B694 /* _bar_item001@3x.png in Resources */,
 				3DFB121C1C44A0B50007B694 /* bar_item001@3x.png in Resources */,
@@ -1839,13 +2037,20 @@
 			files = (
 				F4E6EB1D1C44D8770011865C /* AFURLSessionManager.m in Sources */,
 				F4E6EB691C44D8770011865C /* MJRefreshFooter.m in Sources */,
+				3DA7D40B1C632641002B8888 /* ViewControllerFirst2.m in Sources */,
+				3DA7D4041C6322C3002B8888 /* RadioViewController1.m in Sources */,
 				3D8EAE971C60C6070058DE11 /* NSString+regular.m in Sources */,
 				F4E6EB3A1C44D8770011865C /* UIColor+Extend.m in Sources */,
 				F4E6EB891C44D8770011865C /* SDWebImageManager.m in Sources */,
+				3DA7D4121C632779002B8888 /* ViewControllerFirst.m in Sources */,
 				F4E6EB1A1C44D8770011865C /* AFURLConnectionOperation.m in Sources */,
+				3DA7D42E1C633511002B8888 /* RGCardViewLayout.m in Sources */,
 				F47BFC0B1C509E4300612AAA /* NextViewController2.m in Sources */,
 				F4E6EB151C44D8770011865C /* AFHTTPRequestOperation.m in Sources */,
 				3DFB11F41C44A0300007B694 /* ASNavigationController.m in Sources */,
+				3D3D2E341C62F95C00846CF1 /* ZYRadioButton.m in Sources */,
+				3D3D2E3C1C62FAD300846CF1 /* ASReadSetting.m in Sources */,
+				3DA7D3FA1C6321DB002B8888 /* ViewControllerFirst1.m in Sources */,
 				3DFBEB021C57674D009981CC /* ASBigImages.m in Sources */,
 				3D2F0CFA1C6206AB00B583D9 /* UIColor+Gradient.m in Sources */,
 				F4E6EBA91C44D8770011865C /* TYGSelectMenuCellTableViewCell.m in Sources */,
@@ -1859,6 +2064,7 @@
 				F4E6EB6A1C44D8770011865C /* MJRefreshHeader.m in Sources */,
 				F4E6EB531C44D8770011865C /* JSONModelError.m in Sources */,
 				F4E6EB721C44D8770011865C /* MJRefreshNormalHeader.m in Sources */,
+				3DA7D41C1C632D23002B8888 /* ASScannerViewController.m in Sources */,
 				F4E6EB7B1C44D8770011865C /* TAAbstractDotView.m in Sources */,
 				F4E6EB8B1C44D8770011865C /* UIButton+WebCache.m in Sources */,
 				3D2F0D041C620C8C00B583D9 /* UIView+Frame.m in Sources */,
@@ -1867,6 +2073,7 @@
 				F47BFBFE1C50950200612AAA /* ASNaviagtionItem.m in Sources */,
 				F4E6EB751C44D8770011865C /* MJRefreshConst.m in Sources */,
 				F4E6EB631C44D8770011865C /* NSObject+MJKeyValue.m in Sources */,
+				3DA7D4331C633527002B8888 /* OTRAlbumItemModel.m in Sources */,
 				F4E6EB4F1C44D8770011865C /* UIView+Masony.m in Sources */,
 				3D2F0CFD1C6206AB00B583D9 /* UIColor+Random.m in Sources */,
 				F4E6EB331C44D8770011865C /* CALayer+Transition.m in Sources */,
@@ -1874,8 +2081,8 @@
 				F47BFBFA1C5094A400612AAA /* ViewControllerThird.m in Sources */,
 				F4E6EB641C44D8770011865C /* NSObject+MJProperty.m in Sources */,
 				F4E6EB161C44D8770011865C /* AFHTTPRequestOperationManager.m in Sources */,
-				3D040DFF1C56206B0036BA0E /* ViewControllerFirst.m in Sources */,
 				F4E6EBA61C44D8770011865C /* UIHelpers.m in Sources */,
+				3D3D2E481C62FD4F00846CF1 /* TableViewController.m in Sources */,
 				F4E6EB661C44D8770011865C /* MJRefreshAutoFooter.m in Sources */,
 				F4E6EB2C1C44D8770011865C /* CoreNewFeatureVC.m in Sources */,
 				3DFBEAF91C575F13009981CC /* NSString+Tool.m in Sources */,
@@ -1886,6 +2093,7 @@
 				F4E6EB481C44D8770011865C /* MASConstraintMaker.m in Sources */,
 				F4E6EB231C44D8770011865C /* LocalDataHelpManager.m in Sources */,
 				F4E6EB5D1C44D8770011865C /* MJFoundation.m in Sources */,
+				3DA7D4271C6334CC002B8888 /* OTRAlbumDetailsViewController.m in Sources */,
 				F4E6EB2A1C44D8770011865C /* UIImage+Rotate.m in Sources */,
 				F4E6EB781C44D8770011865C /* UIView+MJExtension.m in Sources */,
 				F4E6EBB81C44DAED0011865C /* UIImage+ChangeSize.m in Sources */,
@@ -1897,6 +2105,7 @@
 				F4E6EB6B1C44D8770011865C /* MJRefreshAutoGifFooter.m in Sources */,
 				F4E6EB431C44D8770011865C /* UIView+Extend.m in Sources */,
 				3DFBEAEE1C575CCA009981CC /* NSString+log.m in Sources */,
+				3DA7D4281C6334CC002B8888 /* OTRAlbumViewController.m in Sources */,
 				3DFBEAF01C575CCA009981CC /* UIButton+repeatClick.m in Sources */,
 				F4E6EB591C44D8770011865C /* JSONValueTransformer.m in Sources */,
 				F4E6EB4D1C44D8770011865C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -1915,6 +2124,7 @@
 				F4E6EB8C1C44D8770011865C /* UIImage+GIF.m in Sources */,
 				F4E6EB861C44D8770011865C /* SDWebImageDecoder.m in Sources */,
 				3D2F0CEB1C61FE9200B583D9 /* UIView+Shake.m in Sources */,
+				3DA7D43A1C633946002B8888 /* ViewControllerFirst4.m in Sources */,
 				3DFB11E51C449D3C0007B694 /* StartViewController.m in Sources */,
 				F4E6EB731C44D8770011865C /* MJRefreshStateHeader.m in Sources */,
 				F4E6EB411C44D8770011865C /* UIImage+Water.m in Sources */,
@@ -1922,7 +2132,9 @@
 				F4E6EB791C44D8770011865C /* NJImageCropperViewController.m in Sources */,
 				F4E6EB2D1C44D8770011865C /* NewFeatureModel.m in Sources */,
 				F4E6EB771C44D8770011865C /* UIScrollView+MJRefresh.m in Sources */,
+				3DA7D4341C633527002B8888 /* OTRAlbumModel.m in Sources */,
 				F4E6EB541C44D8770011865C /* NSArray+JSONModel.m in Sources */,
+				3DA7D4171C63285F002B8888 /* RadioViewController2.m in Sources */,
 				F4E6EB2F1C44D8770011865C /* NewFeatureScrollView.m in Sources */,
 				3DFBEAEA1C575CCA009981CC /* NSArray+HYBUnicodeReadable.m in Sources */,
 				F4E6EB8E1C44D8770011865C /* UIImage+WebP.m in Sources */,
@@ -1935,6 +2147,7 @@
 				3D040DFB1C561B730036BA0E /* ASAlertView.m in Sources */,
 				F4E6EB6F1C44D8770011865C /* MJRefreshBackNormalFooter.m in Sources */,
 				F4E6EB511C44D8770011865C /* JSONModelArray.m in Sources */,
+				3D3D2E561C631A7900846CF1 /* ASDepthModalViewController.m in Sources */,
 				3DFB11EE1C449F870007B694 /* ViewControllerSecond.m in Sources */,
 				F4E6EB5E1C44D8770011865C /* MJProperty.m in Sources */,
 				F4E6EB651C44D8770011865C /* NSString+MJExtension.m in Sources */,
@@ -1943,6 +2156,7 @@
 				F4E6EB681C44D8770011865C /* MJRefreshComponent.m in Sources */,
 				F4E6EB251C44D8770011865C /* MyMD5.m in Sources */,
 				F4E6EB261C44D8770011865C /* MyScrollViewController.m in Sources */,
+				3DA7D42B1C6334F9002B8888 /* RGCollectionViewCell.m in Sources */,
 				F4E6EB821C44D8770011865C /* MKAnnotationView+WebCache.m in Sources */,
 				F4E6EB561C44D8770011865C /* JSONHTTPClient.m in Sources */,
 				3DFBEAEB1C575CCA009981CC /* NSDictionary+HYBUnicodeReadable.m in Sources */,
@@ -1978,6 +2192,7 @@
 				F4E6EB7C1C44D8770011865C /* TAAnimatedDotView.m in Sources */,
 				F47BFC0E1C50B23C00612AAA /* HQSearchBar.m in Sources */,
 				F4E6EBB91C44DAED0011865C /* UILabel+Size.m in Sources */,
+				3DA7D4461C635B38002B8888 /* ViewControllerFirst3.m in Sources */,
 				F4E6EB521C44D8770011865C /* JSONModelClassProperty.m in Sources */,
 				F4E6EB701C44D8770011865C /* MJRefreshBackStateFooter.m in Sources */,
 				F4E6EB571C44D8770011865C /* JSONModel+networking.m in Sources */,
@@ -1994,6 +2209,7 @@
 				F4E6EB4B1C44D8770011865C /* MASViewConstraint.m in Sources */,
 				F4E6EB7D1C44D8770011865C /* TADotView.m in Sources */,
 				F4E6EB221C44D8770011865C /* HTTPManager.m in Sources */,
+				3DA7D4371C633543002B8888 /* OTRAlbumCell.m in Sources */,
 				F4E6EB1C1C44D8770011865C /* AFURLResponseSerialization.m in Sources */,
 				F4E6EB8F1C44D8770011865C /* UIImageView+HighlightedWebCache.m in Sources */,
 				F4E6EB341C44D8770011865C /* NSArray+Extend.m in Sources */,

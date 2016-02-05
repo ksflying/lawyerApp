@@ -1,5 +1,4 @@
 ## IOS
-萌新一枚，欢迎指错
 by-ksflying
 by-HQFlying
 ###2016年1月21日 
@@ -262,5 +261,31 @@ ASContstant.h
 * UIImageView 快速创建ImageView 有点击事件
 * UIView view抖动(Shake) 修改view frame相关属性（Frame）
 * UIButton 避免按钮重复点击(repeatClick)
+
+###2016年2月4日
+* 单选按钮
+
+```
+/*
+ 修改zhangyuc 支持分组单选
+ 使用方法:
+ 1.初始化button 并且设置组别(GroupId) 
+   ZYRadioButton *rb = [[ZYRadioButton alloc] initWithGroupId:@"typeSelect_Group" index:i];
+ 2.设置button的frame
+ 3.设置lable的frame以及其值
+ 4.添加观察者 [ZYRadioButton addObserverForGroupId:@"typeSelect_Group" observer:self];
+ 注:
+ 有多少组设置多少观察者,同一工程内组别(GroupId)不要相同
+ */
+```
+* 原生二维码扫描
+	
+```
+使用方法
+ASScannerViewController * scanner = [[ASScannerViewController alloc] init];
+        scanner.resultSranner = ^(NSString * string){
+            NSLog(@"%@",string);
+        };
+```
 
 

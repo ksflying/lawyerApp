@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+/*
+    相册拍照
+ */
 typedef void (^sendPictureBlock)(UIImage *image);
 
 @interface ASAlbum : NSObject<UIActionSheetDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate>

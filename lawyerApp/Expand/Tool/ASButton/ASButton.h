@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/*
+    自定义Button
+ */
 @interface ASButton : UIButton
 /**
  *  自定义下拉菜单button

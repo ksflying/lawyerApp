@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/*
+    自定义提示框
+ */
 @interface ASAlertView : UIView
 
 

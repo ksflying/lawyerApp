@@ -20,16 +20,15 @@
     [super viewDidLoad];
     
     self.tabBar.translucent = NO;
-    
-    //NSLog(@"标签栏frame%@",NSStringFromCGRect(self.tabBar.frame));
-    
+        
  
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 -(void) setcontroller:(NSString *)controllerName title:(NSString *) title imageNamed:(NSString *)imageName selectedImageName:(NSString *)selectedImage
 {
     

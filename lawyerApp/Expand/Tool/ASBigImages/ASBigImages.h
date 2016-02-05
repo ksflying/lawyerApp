@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/*
+    图片浏览
+ */
 @interface ASBigImages : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *numberOfimageArray;
 //设置默认滚动到第几页
