@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerFirst2">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQM-2U-7mU">
+                    <rect key="frame" x="142" y="185" width="90" height="30"/>
+                    <state key="normal" title="多组单选按钮"/>
+                    <connections>
+                        <action selector="click2:" destination="-1" eventType="touchUpInside" id="Vdt-k7-C6h"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ht-si-AjT">
+                    <rect key="frame" x="142" y="100" width="90" height="30"/>
+                    <state key="normal" title="一组单选按钮"/>
+                    <connections>
+                        <action selector="click1:" destination="-1" eventType="touchUpInside" id="Y5o-7c-IQh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MQM-2U-7mU" firstAttribute="top" secondItem="9ht-si-AjT" secondAttribute="bottom" constant="55" id="LTr-0r-Ys4"/>
+                <constraint firstItem="9ht-si-AjT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="NJv-fv-Dgc"/>
+                <constraint firstItem="MQM-2U-7mU" firstAttribute="centerX" secondItem="9ht-si-AjT" secondAttribute="centerX" id="Vqj-sn-LLa"/>
+                <constraint firstItem="9ht-si-AjT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hrp-6T-xJQ"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="324.5" y="345.5"/>
+        </view>
+    </objects>
+</document>
